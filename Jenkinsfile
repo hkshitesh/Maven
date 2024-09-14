@@ -13,6 +13,13 @@ stages{
 			echo 'Welcome to Jenkins Pipeline'
 		}			
 	}
+	stage('DevOps Engineer Stage')
+	{
+		steps
+		{
+			echo 'Welcome to my stage'
+		}			
+	}
 	stage('Checkout') {
         steps 
 		{                
