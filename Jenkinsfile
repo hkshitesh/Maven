@@ -55,13 +55,6 @@ stages{
 			echo 'This is Post Build Stage'
 		}			
 	}
-	stage('Java Version Check Stage')
-	{
-		steps
-		{
-			bat 'java --version'
-		}			
-	}
 	
 	stage('Success Stage')
 	{
